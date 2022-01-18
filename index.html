@@ -11,19 +11,16 @@
   <body>
 
     <header>
-      <div class='bar'>
+      <div class='navbar is-fixed-top'>
 
-        <div>
+        <div class='navbar-start'>
           <h1 class='title'>Isaac Franks</h1>
         </div>
-        <div>
+        <div class='navbar-end'>
           <a href='#about'>About</a>
           <a href='#skills'>Skills</a>
-          <a href='#'>Projects</a>
-          <a href='#'>Contact</a>
-        </div>
-        <div>
-          <h4>Github</h4>
+          <a href='#projects'>Projects</a>
+          <a href='#contact'>Contact</a>
         </div>
 
       </div>
@@ -33,7 +30,9 @@
 
       <section class='hero is-large'>
         <div class='hero-body'>
-          <p class='title'>Isaac</p>
+          <h1 id='hero-title' class='title' data-text="Isaac Franks">Isaac Franks</h1>
+          <br/>
+          <p id='hero-subtitle' class='subtitle'>Junior Software Engineer</p>
         </div>
       </section>
 
@@ -42,7 +41,41 @@
       </section>
 
       <section id='skills'>
-        
+        <div id='skills-container' class='container'>
+
+          <div>
+            <p class='title'>Skills</p>
+            <p class='subtitle'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit id tempora eaque doloremque, quae consequatur sunt consectetur, excepturi facere dolorum reiciendis odio distinctio sed non dolor nisi voluptatem maxime!</p>
+          </div>
+
+          <div class='skills-columns'>
+            <div class='columns'>
+              <div class='column'>
+                <p>React</p>
+              </div>
+              <div class='column'>
+                <p>Python</p>
+              </div>
+              <div class='column'>
+                <p>Asana</p>
+              </div>
+            </div>
+            <div class='columns'>
+              <div class='column'>
+                <p>Trello</p>
+              </div>
+            </div>
+          </div> 
+
+        </div>  
+      </section>
+
+      <section id='projects'>
+        <p>projects</p>
+      </section>
+
+      <section id='contact'>
+
       </section>
 
     </main>
