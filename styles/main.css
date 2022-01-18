@@ -1,0 +1,26 @@
+h1 {
+  color: red;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: black;
+  height: 10vh;
+}
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.hero {
+  background-color: red;
+}
+
+#about {
+  height: 50vh;
+}
