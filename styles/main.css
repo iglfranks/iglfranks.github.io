@@ -1,5 +1,5 @@
 @font-face {
-  src: url(../fonts/Night_Club_70s_Regular.ttf);
+  src: url(../fonts/LasEnter_PersonalUseOnly.ttf);
   font-family: neon;
 }
 
@@ -27,7 +27,7 @@ html {
 
 
 #hero-title {
-  font-size: 100px;
+  font-size: 200px;
   color: white;
   position: relative;
   font-family: neon;
