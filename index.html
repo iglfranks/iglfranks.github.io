@@ -11,16 +11,18 @@
   <body>
 
     <header>
-      <div class='navbar is-fixed-top'>
+      <div class='navbar is-black is-fixed-top'>
 
-        <div class='navbar-start'>
+        <div id='n1' class='navbar-start'>
           <h1 class='title'>Isaac Franks</h1>
         </div>
         <div class='navbar-end'>
-          <a href='#about'>About</a>
-          <a href='#skills'>Skills</a>
-          <a href='#projects'>Projects</a>
-          <a href='#contact'>Contact</a>
+          <div id='n2'>
+            <a class='bar_link' href='#about'>About</a>
+            <a class='bar_link' href='#skills'>Skills</a>
+            <a class='bar_link' href='#projects'>Projects</a>
+            <a class='bar_link' href='#contact'>Contact</a>
+          </div> 
         </div>
 
       </div>
@@ -32,12 +34,23 @@
         <div class='hero-body'>
           <h1 id='hero-title' class='title' data-text="Isaac Franks">Isaac Franks</h1>
           <br/>
-          <p id='hero-subtitle' class='subtitle'>Junior Software Engineer</p>
+          <p id='hero-subtitle' class='subtitle' data-text="Junior Software Engineer">Junior Software Engineer</p>
         </div>
       </section>
 
       <section id='about'>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident minima vel rem saepe ratione numquam iusto molestias error unde eum, vero eius eos amet quam perferendis culpa expedita cum? Architecto.</p>
+        <div class='about_div'>
+          <h3 class='subtitles'>About Me</h3>
+          <p>
+            After discovering my appreciation of physical geography at A-Levels, I completed a 3 year degree in geology at the university of Birmingham. I learnt scientific methods of analysing tectonic and seismic data, as well as using R language to identify trends in climate change predictions. My experience coding in my course led me to a realisation that I had a far greater vision in a more innovative and modern role, leading me to take the General Assembly Software Engineering Immersive course.
+            <br />
+            <br />
+            Through this I evolved a great understanding of how combining programming and my creative mindset can lead to better problem solving and developing abilities. I want to explore the possibilities of a career that combines the creativity of application design to the analytical skills I gained during my university degree to take a role that aims to create an accommodating and coherent experience.
+            <br />
+            <br />
+            As a result, I have emphasised a dedication to a visibly-easing and efficient interface in my work, and I am looking to use my abilities in an ambitious workplace to begin my journey in software engineering. I’d like to take developmental skills I have learnt and apply them to a role with a larger scope of encouraging change towards a workplace of greater efficiency and receptiveness to improvement.
+          </p>
+        </div>
       </section>
 
       <section id='skills'>
@@ -49,22 +62,96 @@
           </div>
 
           <div class='skills-columns'>
-            <div class='columns'>
-              <div class='column'>
-                <p>React</p>
+
+
+            <div id='tech-skills'>
+
+              <div class='columns'>
+                <div class='column'>
+                  <p>React</p>
+                </div>
+                <div class='column'>
+                  <p>Python</p>
+                </div>
+                <div class='column'>
+                  <p>Yarn</p>
+                </div>
               </div>
-              <div class='column'>
-                <p>Python</p>
+              <div class='columns'>
+                <div class='column'>
+                  <p>HTML5</p>
+                </div>
+                <div class='column'>
+                  <p>CSS3</p>
+                </div>
+                <div class='column'>
+                  <p>JavaScript</p>
+                </div>
               </div>
-              <div class='column'>
-                <p>Asana</p>
+              <div class='columns'>
+                <div class='column'>
+                  <p>Bulma</p>
+                </div>
+                <div class='column'>
+                  <p>Bootstrap</p>
+                </div>
+                <div class='column'>
+                  <p>Node</p>
+                </div>
               </div>
+              <div class='columns'>
+                <div class='column'>
+                  <p>Express</p>
+                </div>
+                <div class='column'>
+                  <p>Django</p>
+                </div>
+                <div class='column'>
+                  <p>Mongo-DB</p>
+                </div>
+              </div>
+              <div class='columns'>
+                <div class='column'>
+                  <p>Insomnia</p>
+                </div>
+                <div class='column'>
+                  <p>Table-Plus</p>
+                </div>
+                <div class='column'>
+                  <p>PostgreSQL</p>
+                </div>
+              </div>
+
             </div>
-            <div class='columns'>
-              <div class='column'>
-                <p>Trello</p>
+
+            <div id='soft-skills'>
+
+              <div class='columns'>
+                <div class='column'>
+                  <p>Communication</p>
+                </div>
+                <div class='column'>
+                  <p>Agile Methodology</p>
+                </div>
+                <div class='column'>
+                  <p>Organisation</p>
+                </div>
               </div>
+
+              <div class='columns'>
+                <div class='column'>
+                  <p>Drive to learn</p>
+                </div>
+                <div class='column'>
+                  <p>Leadership</p>
+                </div>
+                <div class='column'>
+                  <p>Patience</p>
+                </div>
+              </div>
+
             </div>
+            
           </div> 
 
         </div>  
@@ -72,13 +159,51 @@
 
       <section id='projects'>
         <p>projects</p>
-        <div>
-          <h3>Battleships</h3>
-          <div class='info_and_pic'>
+
+        <div class='info_and_pic'>
+          <div>
+            <h3>Battleships</h3>
             <p>I created a working version of Battleships using JavaScript, HTML, and CSS. Centered around if-statement control flow, I tackled using logic to present an efficient turn-based system with effective results. I also experimented without randomisation to create a responsive computer-controlled opponent.</p>
-            <img src="https://i.ibb.co/VSM9p6s/Screenshot-2022-01-20-at-12-47-49.png" alt="Battleships Picture">
-          </div>  
+          </div>
+          <img src="https://i.ibb.co/VSM9p6s/Screenshot-2022-01-20-at-12-47-49.png" alt="Battleships Picture"> 
         </div>
+
+        <div class='info_and_pic'>
+          <img src="https://i.ibb.co/VSM9p6s/Screenshot-2022-01-20-at-12-47-49.png" alt="Battleships Picture">
+          <div>
+            <h3>Yu-Gi-Oh TCG Price Index</h3>
+            <p>
+              My partner and I used a free API of the Yu-Gi-Oh TCG database from the internet to display a range of information to create a page for browsing different cards and their individual prices. 
+              <br />
+              <br />
+              This involved developing skills in acquiring data from different objects and data structures from within the API. I personally built the different API requests and the displaying of the information retrieved. We worked together to use application storage and re-formatting API requests to create a ‘wishlist’ system for the user to keep track of specified items.
+            </p>
+          </div>
+        </div>
+
+        <div class='info_and_pic'>
+          <div>
+            <h3>Museum Mapper</h3>
+            <p>
+              As a group of 4, we created an app for browsing the range of natural history museums and exhibits across England. Together we used Mongo-DB and React to develop our own back-end API, seeded with 30 different museums each with their own details such as image, description, collections, and location for creating an interactive satellite map view. 
+              <br />
+              <br /> 
+              I created the index ‘Show All’ page which displayed all of the museums in a concise card-view, using API requests and Bulma to style, as well as creating different integrated components for adding reviews and ratings through API ‘post’ requests and displaying them in a clear manner after re-rendering.
+            </p>
+          </div>
+          <img src="https://i.ibb.co/VSM9p6s/Screenshot-2022-01-20-at-12-47-49.png" alt="Battleships Picture"> 
+        </div>
+
+        <div class='info_and_pic'>
+          <img src="https://i.ibb.co/VSM9p6s/Screenshot-2022-01-20-at-12-47-49.png" alt="Battleships Picture">
+          <div>
+            <h3>Record-ID</h3>
+            <p>
+              For my final project, I decided to go solo to give myself a challenging experience in a time-sensitive scenario. Using a Django/Python back-end and a React front-end, I designed an app for browsing a database of music records, as well as giving the user the ability to add their own to be displayed in the index and on their own profile.
+            </p>
+          </div>
+        </div>
+
       </section>
 
       <section id='contact'>
