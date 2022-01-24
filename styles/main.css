@@ -188,3 +188,7 @@ p {
   border: 5px solid black;
   border-radius: 10px;
 }
+
+.social-pic {
+  width: 50px;
+}
