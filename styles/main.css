@@ -101,10 +101,21 @@ p {
   justify-content: center;
 }
 
-#skills {
+#skills, #contact {
   background-color: rgb(6, 21, 83);
   padding-bottom: 70px;
   padding-top: 70px;
+}
+
+#contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#social-links {
+  display: flex;
+  flex-direction: row;
 }
 
 #skills-container {
@@ -174,4 +185,6 @@ p {
   width: 100%;
   height: 100%; 
   object-fit: contain;
+  border: 5px solid black;
+  border-radius: 10px;
 }
