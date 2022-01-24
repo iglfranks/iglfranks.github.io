@@ -34,10 +34,15 @@ html {
   text-align: center;
 }
 
+#colour-grad {
+  height: 150px;
+  background-image: linear-gradient(rgb(6, 21, 83, 0), rgb(6, 21, 83));
+}
+
 h1::before {
   position: absolute;
   content: attr(data-text);
-  text-shadow: 0px 0px 20px white;
+  text-shadow: 0px 0px 17px white;
   filter: blur(15px) brightness(0);
   animation: flicker 2s linear 1s forwards;
 }
@@ -49,6 +54,10 @@ h1::before {
   text-align: center;
 }
 
+.proj-title {
+  font-size: 30px;
+}
+
 #hero-subtitle::before {
   position: absolute;
   content: attr(data-text);
@@ -57,9 +66,9 @@ h1::before {
   animation: quickflicker 2s linear 1s forwards;
 }
 
-/* p {
+p {
   color: white;
-} */
+}
 
 @keyframes flicker {
   0%{filter: blur(5px) brightness(0);}
@@ -92,14 +101,60 @@ h1::before {
   justify-content: center;
 }
 
+#skills {
+  background-color: rgb(6, 21, 83);
+  padding-bottom: 70px;
+  padding-top: 70px;
+}
+
 #skills-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.skills-columns {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#tech-skills, #soft-skills {
+  margin: 20px;
+  text-align: center;
+  width: 350px;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(6, 21, 83);
+  padding-bottom: 70px;
+  padding-top: 70px;
 }
 
 .info_and_pic {
   display: flex;
   flex-direction: row;
+  width: 80%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.columns {
+  text-align: center;
+}
+
+.column {
+  /* background-color: red; */
+  margin: 5px;
+}
+
+.infodiv {
+  margin: 10px;
 }
 
 .about_div {
@@ -107,4 +162,16 @@ h1::before {
   text-align: center;
   padding-bottom: 70px;
   padding-top: 70px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.proj-pic {
+  width: 100%;
+  height: 100%; 
+  object-fit: contain;
 }

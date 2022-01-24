@@ -30,11 +30,14 @@
 
     <main>
 
-      <section class='hero is-large'>
+      <section class='hero is-medium'>
         <div class='hero-body'>
           <h1 id='hero-title' class='title' data-text="Isaac Franks">Isaac Franks</h1>
           <br/>
           <p id='hero-subtitle' class='subtitle' data-text="Junior Software Engineer">Junior Software Engineer</p>
+        </div>
+        <div id='colour-grad'>
+          <!-- <p>test</p> -->
         </div>
       </section>
 
@@ -54,11 +57,10 @@
       </section>
 
       <section id='skills'>
-        <div id='skills-container' class='container'>
+        <div id='skills-container'>
 
           <div>
-            <p class='title'>Skills</p>
-            <p class='subtitle'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam suscipit id tempora eaque doloremque, quae consequatur sunt consectetur, excepturi facere dolorum reiciendis odio distinctio sed non dolor nisi voluptatem maxime!</p>
+            <p class='subtitles'>Skills</p>
           </div>
 
           <div class='skills-columns'>
@@ -68,63 +70,63 @@
 
               <div class='columns'>
                 <div class='column'>
-                  <p>React</p>
+                  <img src='assets/react_logo_icon_144942.png'>
                 </div>
                 <div class='column'>
-                  <p>Python</p>
+                  <img src='assets/Python_icon-icons.com_68975.png'>
                 </div>
                 <div class='column'>
-                  <p>Yarn</p>
-                </div>
-              </div>
-              <div class='columns'>
-                <div class='column'>
-                  <p>HTML5</p>
-                </div>
-                <div class='column'>
-                  <p>CSS3</p>
-                </div>
-                <div class='column'>
-                  <p>JavaScript</p>
+                  <img src='assets/yarn_icon_131855.png'>
                 </div>
               </div>
               <div class='columns'>
                 <div class='column'>
-                  <p>Bulma</p>
+                  <img src='assets/social_html5_html_71.png'>
                 </div>
                 <div class='column'>
-                  <p>Bootstrap</p>
+                  <img src='assets/css3-01_icon-icons.com_50918.png'>
                 </div>
                 <div class='column'>
-                  <p>Node</p>
-                </div>
-              </div>
-              <div class='columns'>
-                <div class='column'>
-                  <p>Express</p>
-                </div>
-                <div class='column'>
-                  <p>Django</p>
-                </div>
-                <div class='column'>
-                  <p>Mongo-DB</p>
+                  <img src='assets/javascript_logo_icon_145155 (1).png'>
                 </div>
               </div>
               <div class='columns'>
                 <div class='column'>
-                  <p>Insomnia</p>
+                  <img src='assets/bulma_icon_138839.png'>
                 </div>
                 <div class='column'>
-                  <p>Table-Plus</p>
+                  <img src='assets/dev_node_icon_160853.png'>
                 </div>
                 <div class='column'>
-                  <p>PostgreSQL</p>
+                  <img src='assets/bootstrap_icon_135870.png'>
+                </div>
+              </div>
+              <div class='columns'>
+                <div class='column'>
+                  <img src='assets/insomnia_94603.png'>
+                </div>
+                <div class='column'>
+                  <img src='assets/file_type_mongo_icon_130383.png'>
+                </div>
+                <div class='column'>
+                  <img src='assets/prog-django_icon-icons.com_50802.png'>
+                </div>
+              </div>
+              <div class='columns'>
+                <div class='column'>
+                  <img src='assets/dbs-postgresql_icon-icons.com_50907.png'>
+                </div>
+                <div class='column'>
+                  <img src='assets/netlify_icon_132162.png'>
+                </div>
+                <div class='column'>
+                  <img src='assets/heroku_icon_130912.png'>
                 </div>
               </div>
 
             </div>
 
-            <div id='soft-skills'>
+            <!-- <div id='soft-skills'>
 
               <div class='columns'>
                 <div class='column'>
@@ -150,7 +152,7 @@
                 </div>
               </div>
 
-            </div>
+            </div> -->
             
           </div> 
 
@@ -158,49 +160,65 @@
       </section>
 
       <section id='projects'>
-        <p>projects</p>
+        <p class='subtitles'>Projects</p>
 
         <div class='info_and_pic'>
-          <div>
-            <h3>Battleships</h3>
+          <div class='infodiv'>
+            <h3 class='proj-title'>Battleships</h3>
             <p>I created a working version of Battleships using JavaScript, HTML, and CSS. Centered around if-statement control flow, I tackled using logic to present an efficient turn-based system with effective results. I also experimented without randomisation to create a responsive computer-controlled opponent.</p>
+            <div class='links'>
+              <a href='#' class='button is-link'>Project</a>
+              <a href='#' class='button is-link'>GitHub</a>
+            </div>
           </div>
-          <img src="https://i.ibb.co/VSM9p6s/Screenshot-2022-01-20-at-12-47-49.png" alt="Battleships Picture"> 
+          <img src="https://i.ibb.co/VSM9p6s/Screenshot-2022-01-20-at-12-47-49.png" alt="Battleships Picture" class='proj-pic'> 
         </div>
 
         <div class='info_and_pic'>
-          <img src="https://i.ibb.co/VSM9p6s/Screenshot-2022-01-20-at-12-47-49.png" alt="Battleships Picture">
-          <div>
-            <h3>Yu-Gi-Oh TCG Price Index</h3>
+          <img src="https://i.ibb.co/VSM9p6s/Screenshot-2022-01-20-at-12-47-49.png" alt="Battleships Picture" class='proj-pic'>
+          <div class='infodiv'>
+            <h3 class='proj-title'>Yu-Gi-Oh TCG Price Index</h3>
             <p>
               My partner and I used a free API of the Yu-Gi-Oh TCG database from the internet to display a range of information to create a page for browsing different cards and their individual prices. 
               <br />
               <br />
               This involved developing skills in acquiring data from different objects and data structures from within the API. I personally built the different API requests and the displaying of the information retrieved. We worked together to use application storage and re-formatting API requests to create a ‘wishlist’ system for the user to keep track of specified items.
             </p>
+            <div class='links'>
+              <a href='#' class='button is-link'>Project</a>
+              <a href='#' class='button is-link'>GitHub</a>
+            </div>
           </div>
         </div>
 
         <div class='info_and_pic'>
-          <div>
-            <h3>Museum Mapper</h3>
+          <div class='infodiv'>
+            <h3 class='proj-title'>Museum Mapper</h3>
             <p>
               As a group of 4, we created an app for browsing the range of natural history museums and exhibits across England. Together we used Mongo-DB and React to develop our own back-end API, seeded with 30 different museums each with their own details such as image, description, collections, and location for creating an interactive satellite map view. 
               <br />
               <br /> 
               I created the index ‘Show All’ page which displayed all of the museums in a concise card-view, using API requests and Bulma to style, as well as creating different integrated components for adding reviews and ratings through API ‘post’ requests and displaying them in a clear manner after re-rendering.
             </p>
+            <div class='links'>
+              <a href='#' class='button is-link'>Project</a>
+              <a href='#' class='button is-link'>GitHub</a>
+            </div>
           </div>
-          <img src="https://i.ibb.co/VSM9p6s/Screenshot-2022-01-20-at-12-47-49.png" alt="Battleships Picture"> 
+          <img src="https://i.ibb.co/VSM9p6s/Screenshot-2022-01-20-at-12-47-49.png" alt="Battleships Picture" class='proj-pic'> 
         </div>
 
         <div class='info_and_pic'>
-          <img src="https://i.ibb.co/VSM9p6s/Screenshot-2022-01-20-at-12-47-49.png" alt="Battleships Picture">
-          <div>
-            <h3>Record-ID</h3>
+          <img src="https://i.ibb.co/VSM9p6s/Screenshot-2022-01-20-at-12-47-49.png" alt="Battleships Picture" class='proj-pic'>
+          <div class='infodiv'>
+            <h3 class='proj-title'>Record-ID</h3>
             <p>
               For my final project, I decided to go solo to give myself a challenging experience in a time-sensitive scenario. Using a Django/Python back-end and a React front-end, I designed an app for browsing a database of music records, as well as giving the user the ability to add their own to be displayed in the index and on their own profile.
             </p>
+            <div class='links'>
+              <a href='#' class='button is-link'>Project</a>
+              <a href='#' class='button is-link'>GitHub</a>
+            </div>
           </div>
         </div>
 
