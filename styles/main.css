@@ -97,7 +97,7 @@ p {
 
 
 
-#about {
+#about, #interests {
   background-color: rgb(6, 21, 83);
   display: flex;
   justify-content: center;
@@ -170,7 +170,7 @@ p {
   margin: 10px;
 }
 
-.about_div {
+.about_div, .interests_div {
   width: 500px;
   text-align: center;
   padding-bottom: 70px;
